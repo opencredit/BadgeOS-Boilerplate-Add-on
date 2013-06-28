@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name: BadgeOS Add-On Boilerplate
+ * Plugin Name: BadgeOS Boilerplate Add-On
  * Plugin URI: http://www.learningtimes.com/
  * Description: This BadgeOS add-on automatically...
  * Author: Credly
