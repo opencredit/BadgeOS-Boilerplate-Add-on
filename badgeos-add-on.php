@@ -38,7 +38,7 @@ class BadgeOS_Addon {
 
 		// Run our activation and deactivation hooks
 		register_activation_hook( __FILE__, array( $this, 'activate' ) );
-		register_activation_hook( __FILE__, array( $this, 'deactivate' ) );
+		register_deactivation_hook( __FILE__, array( $this, 'deactivate' ) );
 
 		// If BadgeOS is unavailable, deactivate our plugin
 		add_action( 'admin_notices', array( $this, 'maybe_disable_plugin' ) );
