@@ -6,7 +6,8 @@
  * Author: Credly
  * Version: 1.0.0
  * Author URI: https://credly.com/
- * License: GNU AGPL
+ * License: GNU AGPLv3
+ * License URI: http://www.gnu.org/licenses/agpl-3.0.html
  */
 
 /**
