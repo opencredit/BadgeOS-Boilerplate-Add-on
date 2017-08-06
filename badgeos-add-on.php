@@ -129,6 +129,11 @@ class BadgeOS_Addon {
 
 			// Deactivate our plugin
 			deactivate_plugins( $this->basename );
+			
+			// Stop Wordpress from displaying "Plugin Activated" message in addition to plugin activation error message when plugin gets deactivated.
+			if ( isset( $_GET['activate'] ) ) 
+            unset( $_GET['activate'] );
+
 		}
 
 	} /* maybe_disable_plugin() */
